@@ -1,0 +1,27 @@
+<script total>
+	exports.id = 'message';
+	exports.name = 'Message';
+	exports.author = 'Dodo Marton';
+	exports.version = '1';
+	exports.group = 'Content';
+	exports.preview = 'https://github.com/totaljs/parts/blob/main/pages/message/preview.jpg?raw=true';
+    exports.config = {};
+</script>
+
+<style>
+    .w-message { font-size: 18px; margin-bottom: 60px; margin-top: 30px; display: flex; align-items: center; padding: 20px; border: 1px solid #e0e0e0; border-radius: var(--radius-md); }
+	.w-message i { min-width: 40px; width: 40px; height: 40px; line-height: 40px; font-size: 20px; margin-right: 20px; border-radius: var(--radius-md); text-align: center; }
+	.w-message.idea i { background-color: #F5E79E; }
+	.w-message.warning i { background-color: #9D4A45; color: #fff; }
+</style>
+
+<settings>
+    <div class="padding"></div>
+</settings>
+
+<body>
+    <div class="quote warning">
+        <i class="far fa-exclamation"></i>
+        <div><b>You don't need to use server-side and client-side framework together</b>, it's optional. Our server-side framework will work with most client-side frameworks, and our client-side library will work with most server-side technologies.</div>
+    </div>
+</body>
